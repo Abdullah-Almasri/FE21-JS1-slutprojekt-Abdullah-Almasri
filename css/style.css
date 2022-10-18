@@ -1,0 +1,51 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+form.container{
+  display: flex;
+  justify-content: center;
+}
+
+#btn {
+  border-radius: 2em;
+  padding: 5px 10px;
+}
+
+#userInput{
+  border-radius: 2em;
+  padding: 5px 10px;
+}
+
+#message {
+  color: black;
+  text-align: center;
+}
+
+div {
+  min-width: 300px;
+  text-align: center;
+  padding: 2em;
+  border-radius: 20px;
+  margin: 1rem 0;
+}
+
+
+#five-days {
+  margin-top: 4rem;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+#five-days > div{
+  border: 1px solid black;
+}
